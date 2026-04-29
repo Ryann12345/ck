@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schema.tauri.app/config/1",
   "build": {
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
@@ -34,11 +35,11 @@
     },
     "windows": [
       {
-        "fullscreen": false,
-        "resizable": true,
         "title": "仓库拣货路径规划模拟器",
         "width": 1400,
-        "height": 900
+        "height": 900,
+        "resizable": true,
+        "fullscreen": false
       }
     ]
   }
